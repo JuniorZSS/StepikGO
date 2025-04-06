@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"stepikgo/FOR"
 )
 
 func main() {
@@ -19,16 +20,16 @@ func main() {
 
 	switch taskNum {
 	case 1:
-		For1()
+		FOR.For1()
 
 	case 2:
-		For2()
+		FOR.For2()
 
 	case 3:
-		For3()
+		FOR.For3()
 
 	case 4:
-		For4()
+		FOR.For4()
 
 	default:
 		fmt.Println("Нет задачи с таким номером")
