@@ -8,6 +8,7 @@
 *.dylib
 *.test
 
+
 # Каталог сборки
 /build
 /bin
