@@ -1,0 +1,29 @@
+# ---> Go
+
+# Бинарники после сборки
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Каталог сборки
+/build
+/bin
+
+# Кэш Go-модуля
+/pkg/
+
+# IDE-шные файлы
+.idea/
+*.iml
+.vscode/
+
+# MacOS мусор
+.DS_Store
+
+# Секреты
+*.env
+*.key
+*.pem
