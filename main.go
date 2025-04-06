@@ -6,7 +6,8 @@ import (
 
 func main() {
 
-	fmt.Println("Добро пожаловать!")
+	fmt.Println("Добро пожаловать!" +
+		"\nВсе задачи:")
 	fmt.Println("Все задачи:")
 	fmt.Println("№1 Циклы 1.10")
 	fmt.Println("№2 Циклы 1.10")
