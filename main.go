@@ -26,6 +26,9 @@ func main() {
 	case 3:
 		For3()
 
+	case 4:
+		For4()
+
 	default:
 		fmt.Println("Нет задачи с таким номером")
 	}
