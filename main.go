@@ -31,6 +31,17 @@ func main() {
 	case 4:
 		FOR.For4()
 
+	case 5:
+		FOR.For5()
+
+	case 6:
+		FOR.For6()
+
+	//case 7: FOR.For7()
+
+	case 100:
+		FOR.Repeat()
+
 	default:
 		fmt.Println("Нет задачи с таким номером")
 	}
