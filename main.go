@@ -13,7 +13,11 @@ func main() {
 	fmt.Println("Все задачи:")
 	fmt.Println("№1 Циклы 1.10")
 	fmt.Println("№2 Циклы 1.10")
-	fmt.Println("№3 Циклы 1.10")
+	fmt.Println("№4 Циклы 1.10")
+	fmt.Println("№5 Циклы 1.10")
+	fmt.Println("№6 Циклы 1.10")
+	fmt.Println("№7 Циклы 1.10")
+	fmt.Println("№8 Циклы 1.10")
 	fmt.Print("Введите номер задачи которую нужно воспроизвести: ")
 
 	var taskNum int
