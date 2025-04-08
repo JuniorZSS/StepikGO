@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"stepikgo/FMTI"
-	"stepikgo/FOR"
+	"stepikgo/Basic/FMTI"
+	FOR2 "stepikgo/Basic/FOR"
 )
 
 func main() {
@@ -21,28 +21,28 @@ func main() {
 
 	switch taskNum {
 	case 1:
-		FOR.For1()
+		FOR2.For1()
 
 	case 2:
-		FOR.For2()
+		FOR2.For2()
 
 	case 3:
-		FOR.For3()
+		FOR2.For3()
 
 	case 4:
-		FOR.For4()
+		FOR2.For4()
 
 	case 5:
-		FOR.For5()
+		FOR2.For5()
 
 	case 6:
-		FOR.For6()
+		FOR2.For6()
 
 	case 7:
-		FOR.For7()
+		FOR2.For7()
 
 	case 100:
-		FOR.Repeat()
+		FOR2.Repeat()
 
 	case 8:
 		FMTI.Fmti1()
