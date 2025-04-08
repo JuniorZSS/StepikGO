@@ -37,7 +37,8 @@ func main() {
 	case 6:
 		FOR.For6()
 
-	//case 7: FOR.For7()
+	case 7:
+		FOR.For7()
 
 	case 100:
 		FOR.Repeat()
