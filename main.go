@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"stepikgo/FMTI"
 	"stepikgo/FOR"
 )
 
@@ -42,6 +43,9 @@ func main() {
 
 	case 100:
 		FOR.Repeat()
+
+	case 8:
+		FMTI.Fmti1()
 
 	default:
 		fmt.Println("Нет задачи с таким номером")
