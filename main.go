@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"stepikgo/Basic/FMTI"
-	FOR2 "stepikgo/Basic/FOR"
+	"stepikgo/Basic/ArrSlice"
+	"stepikgo/Basic/Fmti"
+	FOR2 "stepikgo/Basic/For"
 )
 
 func main() {
@@ -45,11 +46,17 @@ func main() {
 	case 7:
 		FOR2.For7()
 
+	case 9:
+		ArrSlice.Arr1()
+
 	case 100:
 		FOR2.Repeat()
 
+	case 101:
+		Fmti.Format()
+
 	case 8:
-		FMTI.Fmti1()
+		Fmti.Fmti1()
 
 	default:
 		fmt.Println("Нет задачи с таким номером")

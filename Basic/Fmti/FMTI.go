@@ -1,4 +1,4 @@
-package FMTI
+package Fmti
 
 import "fmt"
 
