@@ -8,11 +8,13 @@ func Arr1() {
 		fmt.Scan(&workArray[i])
 	}
 	var a, b uint8
-	
-	for i := 0; i < 10; i++ {
+
+	for i := 0; i < 3; i++ {
 		fmt.Scan(&a, &b)
 		workArray[a], workArray[b] = workArray[b], workArray[a]
 	}
 
-	fmt.Println(workArray)
+	for _, elem := range workArray {
+		fmt.Printf("%d ", elem)
+	}
 }

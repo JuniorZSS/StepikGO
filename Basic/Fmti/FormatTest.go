@@ -1,5 +1,6 @@
-// Моя мусорка :)
 package Fmti
+
+// Моя мусорка :)
 
 import "fmt"
 

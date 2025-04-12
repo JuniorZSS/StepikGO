@@ -49,6 +49,12 @@ func main() {
 	case 9:
 		ArrSlice.Arr1()
 
+	case 10:
+		ArrSlice.Arr2()
+
+	case 11:
+		ArrSlice.Arr3()
+
 	case 100:
 		FOR2.Repeat()
 
