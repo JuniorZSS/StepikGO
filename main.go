@@ -55,6 +55,9 @@ func main() {
 	case 11:
 		ArrSlice.Arr3()
 
+	case 12:
+		ArrSlice.Arr4()
+
 	case 100:
 		FOR2.Repeat()
 
