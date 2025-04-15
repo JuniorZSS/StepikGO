@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"stepikgo/Basic/ArrSlice"
-	"stepikgo/Basic/FinalBasic"
-	"stepikgo/Basic/Fmti"
-	FOR2 "stepikgo/Basic/For"
+	FOR2 "stepikgo/Basic/1.10for"
+	"stepikgo/Basic/1.11fmt"
+	"stepikgo/Basic/1.12ArraySlice"
+	"stepikgo/Basic/1.13FinalBasic"
 )
 
 func main() {
@@ -48,34 +48,34 @@ func main() {
 		FOR2.For7()
 
 	case 9:
-		ArrSlice.Arr1()
+		__12ArraySlice.Arr1()
 
 	case 10:
-		ArrSlice.Arr2()
+		__12ArraySlice.Arr2()
 
 	case 11:
-		ArrSlice.Arr3()
+		__12ArraySlice.Arr3()
 
 	case 12:
-		ArrSlice.Arr4()
+		__12ArraySlice.Arr4()
 
 	case 13:
-		ArrSlice.Arr5()
+		__12ArraySlice.Arr5()
 
 	case 14:
-		FinalBasic.Task1()
+		__13FinalBasic.Task1()
 
 	case 15:
-		FinalBasic.Task2()
+		__13FinalBasic.Task2()
 
 	case 100:
 		FOR2.Repeat()
 
 	case 101:
-		Fmti.Format()
+		__11fmt.Format()
 
 	case 8:
-		Fmti.Fmti1()
+		__11fmt.Fmti1()
 
 	default:
 		fmt.Println("Нет задачи с таким номером")
