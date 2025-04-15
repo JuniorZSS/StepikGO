@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"stepikgo/Basic/ArrSlice"
+	"stepikgo/Basic/FinalBasic"
 	"stepikgo/Basic/Fmti"
 	FOR2 "stepikgo/Basic/For"
 )
@@ -57,6 +58,15 @@ func main() {
 
 	case 12:
 		ArrSlice.Arr4()
+
+	case 13:
+		ArrSlice.Arr5()
+
+	case 14:
+		FinalBasic.Task1()
+
+	case 15:
+		FinalBasic.Task2()
 
 	case 100:
 		FOR2.Repeat()
