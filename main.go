@@ -68,6 +68,24 @@ func main() {
 	case 15:
 		__13FinalBasic.Task2()
 
+	case 16:
+		__13FinalBasic.Task3()
+
+	case 17:
+		__13FinalBasic.Task4()
+
+	case 18:
+		__13FinalBasic.Task5()
+
+	case 19:
+		__13FinalBasic.Task6()
+
+	case 20:
+		__13FinalBasic.Task7()
+
+	case 21:
+		__13FinalBasic.Task8()
+	
 	case 100:
 		FOR2.Repeat()
 
