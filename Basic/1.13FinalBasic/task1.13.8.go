@@ -11,20 +11,17 @@ func Task8() {
 	arr := make([]int, a)
 	fmt.Print("Введите количество числа в массив: ")
 
+	j := 1
 	for i := range arr {
+		m := arr[0]
 		fmt.Scan(&arr[i])
-	}
-	m := arr[0]
-	for i := range arr {
 		if m > arr[i] {
-			m = arr[i]
+			j = 0
 		}
-	}
-	j := 0
-	for i := range arr {
 		if m == arr[i] {
 			j++
 		}
 	}
+
 	fmt.Print(j)
 }
