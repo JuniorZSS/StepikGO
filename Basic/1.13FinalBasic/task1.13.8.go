@@ -11,15 +11,19 @@ func Task8() {
 	arr := make([]int, a)
 	fmt.Print("Введите количество числа в массив: ")
 
-	j := 1
+	m := arr[0]
+	j := 0
 	for i := range arr {
-		m := arr[0]
 		fmt.Scan(&arr[i])
 		if m > arr[i] {
-			j = 0
+			j = 1
 		}
 		if m == arr[i] {
 			j++
+		}
+		//Это дичь... Я получаю лишнюю единицу
+		if j == 0 {
+			j = 1
 		}
 	}
 
