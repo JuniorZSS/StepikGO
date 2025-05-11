@@ -1,18 +1,48 @@
 package FOR
 
-// Я поседел подумал, ну нафиг... Нет, ну вы видели? https://stepik.org/lesson/228263/step/10?unit=200796
+import "fmt"
 
-//func For8() {
-//
-//	var a, b int
-//	fmt.Scan(&a, &b)
-//	if a < b {
-//		I := 5
-//		N := 4
-//		fmt.Println(I, N)
-//	}
-//
+func For8() {
+
+	var a, b int
+	fmt.Scan(&a, &b)
+
+	ab := 0
+	ba := 0
+	bb := b
+	bc := 1
+	res := 0
+
+	//arr := []int{}
+	for a > 0 {
+		ab = a % 10
+		a = a / 10
+		b = bb
+		for b > 0 {
+			ba = b % 10
+			b = b / 10
+			if ab == ba {
+				res = ab*bc + res
+				bc *= 10
+			}
+		}
+	}
+
+	for res > 0 {
+		bc /= 10
+		a = res / bc
+		res = res % bc
+
+		fmt.Printf("%d ", a)
+	}
+}
+
+//for bc > 0 {
+//	n := res / bc
+//	fmt.Printf("%d ", n)
+//	//res = res / 10
+//	bc = bc / 10
 //}
-
-//Даже если получим цифры из чисел, они не сохранятся в обратном порядке, придется использовать например массив, а согласно курсу мы тут применяем только циклы и полученные ранее знания, так что я пасс.
+//for i := len(arr) - 1; i >= 0; i-- {
+//	fmt.Print(arr[i])
 //}
