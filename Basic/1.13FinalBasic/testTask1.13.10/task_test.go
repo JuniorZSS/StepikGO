@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestTask(t *testing.T) {
+func TestTask10(t *testing.T) {
 	tests := []struct {
 		a        int
 		b        int
