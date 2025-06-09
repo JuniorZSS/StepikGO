@@ -4,6 +4,8 @@ import (
 	"testing"
 )
 
+// Первый тест!
+
 func TestTask10(t *testing.T) {
 	tests := []struct {
 		a        int
