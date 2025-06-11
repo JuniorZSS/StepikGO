@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	FOR2 "stepikgo/Basic/1.10for"
-	"stepikgo/Basic/1.11fmt"
-	"stepikgo/Basic/1.12ArraySlice"
-	"stepikgo/Basic/1.13FinalBasic"
-	"stepikgo/Basic/1.13FinalBasic/testTask1.13.10"
+	"stepikgo/src/Basic/1.10for"
+	"stepikgo/src/Basic/1.11fmt"
+	__12ArraySlice2 "stepikgo/src/Basic/1.12ArraySlice"
+	__13FinalBasic2 "stepikgo/src/Basic/1.13FinalBasic"
+	"stepikgo/src/Basic/1.13FinalBasic/testTask1.13.10"
 )
 
 func main() {
@@ -22,91 +22,91 @@ func main() {
 	// Реализовать интерфейс и роутинг задач, более эффективно, удобнее, менее затратно по памяти.
 	switch taskNum {
 	case 1:
-		FOR2.For1()
+		FOR.For1()
 
 	case 2:
-		FOR2.For2()
+		FOR.For2()
 
 	case 3:
-		FOR2.For3()
+		FOR.For3()
 
 	case 4:
-		FOR2.For4()
+		FOR.For4()
 
 	case 5:
-		FOR2.For5()
+		FOR.For5()
 
 	case 6:
-		FOR2.For6()
+		FOR.For6()
 
 	case 7:
-		FOR2.For7()
+		FOR.For7()
 
 	case 8:
-		FOR2.For8()
+		FOR.For8()
 
 	case 9:
-		__12ArraySlice.Arr1()
+		__12ArraySlice2.Arr1()
 
 	case 10:
-		__12ArraySlice.Arr2()
+		__12ArraySlice2.Arr2()
 
 	case 11:
-		__12ArraySlice.Arr3()
+		__12ArraySlice2.Arr3()
 
 	case 12:
-		__12ArraySlice.Arr4()
+		__12ArraySlice2.Arr4()
 
 	case 13:
-		__12ArraySlice.Arr5()
+		__12ArraySlice2.Arr5()
 
 	case 14:
-		__13FinalBasic.Task1()
+		__13FinalBasic2.Task1()
 
 	case 15:
-		__13FinalBasic.Task2()
+		__13FinalBasic2.Task2()
 
 	case 16:
-		__13FinalBasic.Task3()
+		__13FinalBasic2.Task3()
 
 	case 17:
-		__13FinalBasic.Task4()
+		__13FinalBasic2.Task4()
 
 	case 18:
-		__13FinalBasic.Task5()
+		__13FinalBasic2.Task5()
 
 	case 19:
-		__13FinalBasic.Task6()
+		__13FinalBasic2.Task6()
 
 	case 20:
-		__13FinalBasic.Task7()
+		__13FinalBasic2.Task7()
 
 	case 21:
-		__13FinalBasic.Task8()
+		__13FinalBasic2.Task8()
 
 	case 22:
-		__13FinalBasic.Task9()
+		__13FinalBasic2.Task9()
 
 	case 23:
 		testTask1_13_10.Task10()
 
 	case 24:
-		__13FinalBasic.Task11()
+		__13FinalBasic2.Task11()
 
 	case 25:
-		__13FinalBasic.Task12()
+		__13FinalBasic2.Task12()
 
 	case 26:
-		__13FinalBasic.Task13()
+		__13FinalBasic2.Task13()
 
 	case 27:
-		__13FinalBasic.Task14()
+		__13FinalBasic2.Task14()
 
 	case 28:
-		__13FinalBasic.Task15()
+		__13FinalBasic2.Task15()
 
 	case 100:
-		FOR2.Repeat()
+		FOR.Repeat()
 
 	case 101:
 		__11fmt.Format()

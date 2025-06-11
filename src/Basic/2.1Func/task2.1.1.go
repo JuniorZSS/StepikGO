@@ -1,4 +1,5 @@
-//package __1Func
+package __1Func
+
 //
 //import "fmt"
 //
