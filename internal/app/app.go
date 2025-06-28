@@ -7,7 +7,8 @@ import (
 	__12ArraySlice2 "stepikgo/internal/mywork/stepic-tasks/Basic/1.12ArraySlice"
 	__13FinalBasic2 "stepikgo/internal/mywork/stepic-tasks/Basic/1.13FinalBasic"
 	testTask1_13_10 "stepikgo/internal/mywork/stepic-tasks/Basic/1.13FinalBasic/testTask1.13.10"
-	__1Func "stepikgo/internal/mywork/stepic-tasks/Basic/2.1Func"
+	__1Func2 "stepikgo/internal/mywork/stepic-tasks/FuncStrPoint"
+	"stepikgo/internal/mywork/stepic-tasks/String"
 )
 
 type Task interface {
@@ -47,10 +48,12 @@ var taskList = map[int]Task{
 	26:  TaskFunc(__13FinalBasic2.Task13),
 	27:  TaskFunc(__13FinalBasic2.Task14),
 	28:  TaskFunc(__13FinalBasic2.Task15),
-	29:  TaskFunc(__1Func.Task2),
-	30:  TaskFunc(__1Func.Task3),
-	31:  TaskFunc(__1Func.Task4),
-	32:  TaskFunc(__1Func.Task5),
+	29:  TaskFunc(__1Func2.Task2),
+	30:  TaskFunc(__1Func2.Task3),
+	31:  TaskFunc(__1Func2.Task4),
+	32:  TaskFunc(__1Func2.Task5),
+	33:  TaskFunc(__1Func2.Task6),
+	100: TaskFunc(String.Task1),
 	101: TaskFunc(__11fmt.Format),
 }
 

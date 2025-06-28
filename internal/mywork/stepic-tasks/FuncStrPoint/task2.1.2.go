@@ -1,4 +1,4 @@
-package __1Func
+package FuncStrPoint
 
 import (
 	"fmt"
